@@ -1,0 +1,24 @@
+baseURL : ''
+languageCode : 'en-us'
+title : 'Personal Web'
+theme : 'PaperMod'
+enableEmoji : true
+
+params:
+  homeInfoParams:
+    Title: 'Hello All!'
+    Content: 'Welcome to my blog :)'
+  socialIcons:
+    - name: instagram 
+      url: "https://instagram.com/"
+    - name: discord 
+      url: "https://discord.com"
+    - name: github
+      url: "https://github.com"
+
+menu:
+  main:
+    - identifier: AboutMe
+      name: About Me
+      url: /AboutMe/
+      weight: 10
